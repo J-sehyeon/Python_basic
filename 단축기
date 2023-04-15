@@ -1,0 +1,7 @@
+Alt+ ↑ / ↓: Move line up/down
+Shift+ Enter: Execution
+Ctrl+ Z: Undo
+Ctrl+ Shift+ Z or Ctrl+ Y: Redo
+Tab: toggle the extension (by "TabOut" extension)
+Ctrl+ C: shot down by KeyboardInterrupt
+Ctrl+ F: search
