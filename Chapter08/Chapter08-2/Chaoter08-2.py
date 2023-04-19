@@ -16,3 +16,6 @@ print("isinstance(student, Student):", isinstance(student, Student))
     # isinstance_type.py 
     # isinstance() 함수는 상속 관계를 확인하는 반면, type() 함수는 상속 관계를 확인하지 않는다.
 # isinstance.py
+
+# 특수한 이름의 메소드  / __<이름>__()
+# str_func.py

@@ -16,4 +16,4 @@ for person in classroom:
     if isinstance(person, Student):
         person.study()
     elif isinstance(person, Teacher):
-        person.teach()  
+        person.teach()
