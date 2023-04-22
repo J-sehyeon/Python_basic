@@ -30,9 +30,9 @@ class Student:
         return self.get_sum() / 4
     
     def __str__(self):
-        return "{}\t{}\t{}".format(
-            self.name,
-            self.get_sum(),
+        return "{}\t{}\t{}".format(\
+            self.name,\
+            self.get_sum(),\
             self.get_average())
     
 # 학색 이스트를 선언합니다.

@@ -36,3 +36,26 @@ print("isinstance(student, Student):", isinstance(student, Student))
 #                        pass
 # 클래스 함수 호출  / 클래스 이름.함수 이름(매개변수)
 # class_func.py
+
+# 가비지 컬렉터(garbage collector)  / 더 사용할 가능성이 없는 데이터를 메모리에서 제거하는 역할을 한다.
+# 프로그램 내부에서 무언가를 생성한다는 것은 메모리 위에 올린다는 의미이다. 
+# 스왑(swap)    / 메모리가 부족할 때 컴퓨터가 하드디스크를 메모리처럼 사용하는 동작     / 하드디스크는 메모리보다 훨씬 느리다.
+# 가비지 컬렉터를 통해 컴퓨터 성능을 유지시킨다.
+# '더 사용할 가능성이 없는 데이터'라는 것에는 변수에 저장되지 않거나, 함수 등에서 나오면서 변수를 활용할 수 없게 되는 경우 등이 있다.
+    # 소멸자(destructor)    / 생성자와 반대로 인스턴스가 소멸될 때 호출되는 함수이다.
+# garbage01.py, garbage02.py
+
+# 프라이빗 변수와 게터/세터     / 객체를 효율적으로 사용하기 위한 추가 기능이다.
+# math_sample.py
+# <math_sampe.py> 에서 사용한 Circle 클래스의 radius 속성에 음수를 넣으면 넓이는 괜찮지만, 둘레는 음수가 나온다.
+# circle = Circle(10)
+# circle.radius = -2        / radius 속성에 음수를 넣음
+# print("원의 둘레:", circle.get_circumference())
+# print("원의 넓이:", circle.get_area())
+
+# 프라이빗 변수     / __<변수 이름>     / 클래스 내부의 변수를 외부에서 사용하는 것을 막는다.
+# private_var.py
+# 게터와 세터   / 프라이빗 변수의 값을 추출하거나 변경할 목적으로, 간접적으로 속성에 접근하도록 해주는 함수이다.
+# getter_setter.py
+# 데코레이터를 사용한 게터와 세터   / @property, @<변수 이름>.setter
+# deco01.py
