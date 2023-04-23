@@ -59,3 +59,12 @@ print("isinstance(student, Student):", isinstance(student, Student))
 # getter_setter.py
 # 데코레이터를 사용한 게터와 세터   / @property, @<변수 이름>.setter
 # deco01.py
+
+# 상속(inheritance)     / 다른 누군가가 만들어 놓은 기본 형태에 내가 원하는 것만 교체하는 것을 말한다.
+# 다중 상속     / 다른 누군가가 만들어 놓은 형태들을 조립해서 내가 원하는 것을 만드는 것을 말한다.  / 고급 기술이라 거의 사용되지 않는다.
+# 프로그래밍 언어는 기반이 되는 것을 부모라고 부르고, 이를 기반으로 생성한 것을 자식이라고 부른다.
+# inherit01.py
+# 예외 클래스 만들기
+# inherit02.py, inherit03.py
+# 오버라이드(override)  / 부모에 정의되어 있는 함수를 자식에서 다시 정의하는 것 / '재정의'라고도 부른다.
+# inherit04.py
