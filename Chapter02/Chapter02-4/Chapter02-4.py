@@ -19,7 +19,8 @@
 # 의미 없는 소수점 제거하기  / {:g}  / 의미없는 0 만을 제거, 다른 숫자는 제거 x
 # format07.py
 
-# 대소문자 바꾸기    / upper(), lower()  / 이 두 함수는 a의 문자열을 변화시키지 않는 비파괴적 함수이다.
+# 대소문자 바꾸기    / upper(), lower()  / 이 두 함수는 a의 문자열을 변화시키지 않는 비파괴적 함수이다.  
+# 비파괴적 함수는 자료에 함수를 적용한 후에도 자료에 변화가 없는 함수를 칭함
 a = "Hello Pythone Programming...!"
 print(a.upper())    # HELLO PYTHONE PROGRAMMING...!
 print(a.lower())    # hello pythone programming...!
