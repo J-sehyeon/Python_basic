@@ -5,7 +5,7 @@ numbers = [103, 52, 273, 32, 77]
 print(min(numbers), max(numbers), sum(numbers))
 print(max(103, 52, 273))    # 리스트를 사용하지 않고도 최솟값, 최댓값을 구할 수 있음
 # reversed() 함수로 리스트 뒤집기
-# reversed.py, reversed_generator.py
+# reversed.py, reversed_generator.py    / 5장 내용
 # enumerate() 함수와 반복문 조합하기
 example_list = ["요소A", "요소B", "요소C"]
 # 방법 1
@@ -17,7 +17,7 @@ for item in example_list:
 for i in range(len(example_list)):
     print(f'{i}번째 요소는 {example_list[i]}입니다.')
 # 이처럼 리스트의 요소를 반복할 때 현재 인덱스가 몇 번째인지 확인할 때 사용하는 함수이다.
-# enumerate()
+# enumerate.py
 # 딕셔너리의 items() 함수와 반복문 조합하기  / enumerate():리스트, items():딕셔너리  / 키와 값을 조합
 # items.py
 # 리스트 내포(list comprehensions)   / 리스트 이름 = [표현식 for 반복자 in 반복할 수 있는 것(+ if 조건문)]   
