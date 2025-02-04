@@ -43,7 +43,7 @@ print(divmod(a, b))
 # 이름, 키, 몸무게   / 헤더
 # 정세현, 177, 75    / 데이터 
 # 윤인성, 176, 62    / 데이터
-# file_write.pt, file_readlines.py
+# file_write.py, file_readlines.py
 
 
 # 제너레이터(generator) / 이터레이터를 직접 만들 때 사용하는 코드이다.   / 함수 내부에 yield 키워드를 사용하면 해당 함수는 
@@ -137,3 +137,6 @@ def 함수():
 # 함수()_UnboundLocalError: cannot access local variable 'a' where it is not associated with a value
 # 스택에 있는 변수 a의 값(주소) 자체를 수정하려 하므로 오류 발생      
 print(a)
+
+# 정리. 함수 내부에서 함수 외부의 변수의 값을 활용하는건 문제 없지만 스택에 있는 값을 교체한다면 UnboundLocalError 가 발생한다.
+# .append의 경우는 스택이 아닌 스택이 가리키는 힙의 값을 변경하므로 global키워드를 사용하지 않아도 된다.

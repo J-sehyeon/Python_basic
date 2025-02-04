@@ -17,3 +17,4 @@ print("version:", sys.version)
 # 프로그램을 강제로 종료합니다.
 print("# 프로그램을 강제로 종료합니다.")
 sys.exit()
+print(1)

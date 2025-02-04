@@ -15,7 +15,7 @@ print("E 지점 통과")
 b = next(output)
 print(b)
 print("F 지점 통과")    
-c = next(output)        # StopIteration  / next() 함수를 호출한 이후 yield 키워드를 만나지 못하고 함수가 끝남
-print(c)
+#c = next(output)        # StopIteration  / next() 함수를 호출한 이후 yield 키워드를 만나지 못하고 함수가 끝남
+#print(c)
 # 한 번 더 실행하기
-next(output)
+#next(output)

@@ -6,3 +6,5 @@ class Test:
         print("{} - 파괴되었습니다.".format(self.name))
 
 test = Test("A")
+test.name='B'
+print(test.name)
